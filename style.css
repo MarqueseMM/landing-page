@@ -6,19 +6,46 @@
     /* align-items: center; */
 }
 
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
 
 /* Top Bar */
 .top-bar {
     display: flex;
     justify-content: space-between;
-    /* justify-content: center; */
+    margin: 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+li {
+    list-style-type: none;
+    color: rgb(164, 152, 152);
 }
 
 /* Hero Section */
+
+.hero-section {
+    display: flex;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    display: flex;
+}
 
 .hero-section h1 {
     font-size: 48px;
