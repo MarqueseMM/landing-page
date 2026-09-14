@@ -1,6 +1,7 @@
 /* Header Section */
 .header {
     background-color: #1F2937;
+    padding: 20px;
     /* flex */
     display: flex;
     align-items: center;
