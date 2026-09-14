@@ -1,0 +1,28 @@
+/* Header Section */
+.header {
+    background-color: #1F2937;
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+ul a {
+    color: #F9FAF8;
+    filter: contrast(50%);
+    text-decoration: none;
+}
