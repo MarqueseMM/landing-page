@@ -3,7 +3,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 /* General */
 .header,.hero {
     background-color: #1F2937;
@@ -19,7 +18,6 @@ body {
     gap: 15px;
     padding-left: 200px;
     padding-right: 200px;
-
 }
 
 .header-logo {
