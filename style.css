@@ -51,7 +51,7 @@ ul a {
     filter: contrast(50%);
 }
 
-.placeholder-card p {
+.placeholder-card {
     font-size: 18px;
     color: #E5E7EB;
 }
