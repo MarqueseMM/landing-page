@@ -1,3 +1,9 @@
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 /* General */
 .header,.hero {
     background-color: #1F2937;
@@ -53,10 +59,27 @@ ul a {
 
 .placeholder-card {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #f8fbff;
+    background-color: rgb(162, 162, 162);
+    width: 600px;
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.hero {
+    display: flex;
 }
