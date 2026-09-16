@@ -11,13 +11,14 @@ body {
 
 /* Header section */
 .header {
-    
     padding: 20px;
     /* flex */
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
 
 }
 
@@ -49,18 +50,21 @@ ul a {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    width: 500px;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
     filter: contrast(50%);
+    width: 400px;
 }
 
 .placeholder-card {
     font-size: 18px;
     color: #f8fbff;
     background-color: rgb(162, 162, 162);
+    height: 225px;
     width: 600px;
     /* flex */
     display: flex;
@@ -82,4 +86,9 @@ button {
 
 .hero {
     display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
