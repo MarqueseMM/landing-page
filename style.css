@@ -92,8 +92,42 @@ button {
 }
 
 /* Information section */
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.information .information-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 30px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
 .card {
-    width: 100px;
-    height: 100px;
-    border: 5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+}
+
+.card span {
+    width: 125px;
+}
+
+.illustration {
+    width: 125px;
+    height: 125px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
