@@ -90,3 +90,10 @@ button {
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
+/* Information section */
+.card {
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+}
